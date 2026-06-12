@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJA - Educação de Jovens e Adultos | Ivaiporã</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Educação de Jovens e Adultos (EJA)</h1>
+        <p>Ivaiporã - Paraná</p>
+    </header>
+
+    <div class="container">
+        <main>
+            <section class="card">
+                <h2>Quem Somos</h2>
+                <p>A EJA oferece a oportunidade de retorno aos estudos para jovens e adultos que não concluíram a educação básica na idade certa. Nossa missão é transformar vidas por meio do conhecimento, respeitando o tempo e a história de cada estudante.</p>
+                <br>
+                <p><strong>Diretora Institucional:</strong> Érica Renati Kronitzky Viana</p>
+            </section>
+
+            <section class="card">
+                <h2>Status de Funcionamento Inteligente</h2>
+                <div id="status-painel">
+                    <span id="status-tag" class="status-badge">Fechado</span>
+                    <p id="status-texto">A instituição abre às 13:00.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Localização</h2>
+                <p>📍 Praça Independência, 375<br>Centro, Ivaiporã - PR<br>CEP: 86870-000</p>
+                <small class="text-muted">(Próximo aos principais pontos centrais da cidade)</small>
+            </section>
+        </main>
+
+        <aside>
+            <section class="card">
+                <h2>Fale Conosco</h2>
+                <p class="form-instruction">Deseja fazer sua matrícula ou tirar dúvidas? Envie uma mensagem!</p>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" required placeholder="Ex: João Silva">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Seu Telefone:</label>
+                        <input type="tel" id="telefone" required placeholder="Ex: (43) 99999-9999">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" rows="4" required placeholder="Como podemos te ajudar?"></textarea>
+                    </div>
+                    <button type="submit">Enviar Interesse</button>
+                </form>
+                <div id="formFeedback" class="feedback-msg"></div>
+            </section>
+
+            <section class="card">
+                <h2>Contato Direto</h2>
+                <p>Se preferir, ligue ou mande um WhatsApp:</p>
+                <a href="https://wa.me/5543996311542" target="_blank" class="contact-link">
+                    📞 (43) 99631-1542
+                </a>
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EJA Ivaiporã. Todos os direitos reservados. Gestão: Érica Renati K. Viana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
